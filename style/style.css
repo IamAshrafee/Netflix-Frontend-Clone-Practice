@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.full-page {
+    width: 1920px;
+
+}
+
+.container {
+    width: 1200px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    background: url(../images/BD-en-20241209-TRIFECTA-perspective_b6a2cb06-1a6a-44c9-9d51-dcb1de523d97_large.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 940px;
+}
+
+.background-shade {
+    background: linear-gradient(0deg, rgba(0,0,0,0.9051995798319328) 0%, rgba(0,0,0,0.5886729691876751) 70%, rgba(0,0,0,0.8631827731092436) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    margin-top: 24px;
+}
+
+.nav-bar-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-box img {
+    width: 148px;
+    height: 40px;
+}
+
+.nav-button {
+    width: 75px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #e50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.background-image {}
+
+.section-2 {}
